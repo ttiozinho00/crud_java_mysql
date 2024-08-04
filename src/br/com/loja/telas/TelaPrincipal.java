@@ -5,15 +5,10 @@
  */
 package br.com.loja.telas;
 
-import br.com.loja.dal.ModuloConexao;
 import java.text.DateFormat;
 import java.util.Date;
 import javax.swing.JOptionPane;
 
-/**
- *
- * @author Anderson
- */
 public class TelaPrincipal extends javax.swing.JFrame {
 
     /**

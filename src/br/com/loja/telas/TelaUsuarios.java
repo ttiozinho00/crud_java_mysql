@@ -4,10 +4,7 @@ import java.sql.*;
 import br.com.loja.dal.ModuloConexao;
 import javax.swing.JOptionPane;
 
-/**
- *
- * @author Anderson
- */
+
 public class TelaUsuarios extends javax.swing.JInternalFrame {
 
     Connection conexao = null;

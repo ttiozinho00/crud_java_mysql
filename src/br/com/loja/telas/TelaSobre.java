@@ -5,10 +5,6 @@
  */
 package br.com.loja.telas;
 
-/**
- *
- * @author Anderson
- */
 public class TelaSobre extends javax.swing.JFrame {
 
     /**

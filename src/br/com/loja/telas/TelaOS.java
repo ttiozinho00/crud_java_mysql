@@ -4,10 +4,7 @@ import br.com.loja.dal.ModuloConexao;
 import javax.swing.JOptionPane;
 import net.proteanit.sql.DbUtils;
 
-/**
- *
- * @author Anderson
- */
+
 public class TelaOS extends javax.swing.JInternalFrame {
     
     Connection conexao = null;
