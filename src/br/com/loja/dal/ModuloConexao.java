@@ -11,7 +11,7 @@ public class ModuloConexao {
 
         // Define JDBC driver and database URL
         String driver = "com.mysql.cj.jdbc.Driver";
-        String url = "jdbc:mysql://localhost:3306/bdlojaetec?useSSL=false&serverTimezone=UTC";
+        String url = "jdbc:mysql://localhost:3306/crudjava?useSSL=false&serverTimezone=UTC";
         String user = "root";
         String password = "Douglas123@";
 
