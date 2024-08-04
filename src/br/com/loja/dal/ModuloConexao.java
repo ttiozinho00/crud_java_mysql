@@ -22,17 +22,18 @@ public class ModuloConexao {
 
             // Create a connection using DriverManager
             conexao = DriverManager.getConnection(url, user, password);
-            System.out.println("Conexão estabelecida com sucesso.");
+            (System.out).println("Conexão estabelecida com sucesso.");
 
         } catch (ClassNotFoundException e) {
             System.out.println("Driver JDBC não encontrado.");
-            e.printStackTrace();
 
         } catch (SQLException e) {
             System.out.println("Falha ao estabelecer conexão com o banco de dados.");
-            e.printStackTrace();
         }
 
         return conexao;
+    }
+
+    private ModuloConexao() {
     }
 }
