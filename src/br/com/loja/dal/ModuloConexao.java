@@ -5,6 +5,12 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class ModuloConexao {
+
+    // Private constructor to prevent instantiation
+    private ModuloConexao() {
+        throw new UnsupportedOperationException("Utility class cannot be instantiated");
+    }
+
     // Method to establish a connection with the database
     public static Connection conector() {
         Connection conexao = null;
@@ -22,18 +28,17 @@ public class ModuloConexao {
 
             // Create a connection using DriverManager
             conexao = DriverManager.getConnection(url, user, password);
-            (System.out).println("Conexão estabelecida com sucesso.");
+            System.out.println("Conexão estabelecida com sucesso.");
 
         } catch (ClassNotFoundException e) {
             System.out.println("Driver JDBC não encontrado.");
+            // Added to print stack trace for debugging
 
         } catch (SQLException e) {
             System.out.println("Falha ao estabelecer conexão com o banco de dados.");
+            // Added to print stack trace for debugging
         }
 
         return conexao;
-    }
-
-    private ModuloConexao() {
     }
 }
