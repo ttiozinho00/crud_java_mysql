@@ -3,6 +3,7 @@
 * netbeans
 * mysql
 * java 8
+* eclipse
 
 ```
 login:anderson
